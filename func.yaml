@@ -1,0 +1,9 @@
+# $schema: https://raw.githubusercontent.com/knative/func/release-1.19/schema/func_yaml-schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/knative/func/release-1.19/schema/func_yaml-schema.json
+specVersion: 0.36.0
+name: fn-gitflow
+runtime: go
+registry: quay.io/dfridric
+created: 2025-10-17T06:29:30.470508554+02:00
+build:
+  builder: pack
