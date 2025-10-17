@@ -4,6 +4,12 @@ specVersion: 0.36.0
 name: fn-gitflow
 runtime: go
 registry: quay.io/dfridric
+namespace: default
 created: 2025-10-17T06:29:30.470508554+02:00
 build:
+  git:
+    url: https://github.com/gauron99/functions-git-flow
   builder: pack
+deploy:
+  namespace: default
+  image: quay.io/dfridric/fn-gitflow:latest
