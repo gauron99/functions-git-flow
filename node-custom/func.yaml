@@ -1,0 +1,6 @@
+# $schema: https://raw.githubusercontent.com/knative/func/release-1.19/schema/func_yaml-schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/knative/func/release-1.19/schema/func_yaml-schema.json
+specVersion: 0.36.0
+name: node-custom
+runtime: node
+created: 2025-10-20T08:35:50.279506562+02:00
