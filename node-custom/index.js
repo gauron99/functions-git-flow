@@ -1,4 +1,4 @@
-function invoke(context) {
-  return { body: 'first revision' }
+const handle = async (context,body) => {
+  return { body: 'first revision' };
 }
-module.exports = { invoke };
+module.exports = { handle };
