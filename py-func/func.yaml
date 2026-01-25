@@ -1,0 +1,9 @@
+# $schema: https://raw.githubusercontent.com/knative/func/release-1.20/schema/func_yaml-schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/knative/func/release-1.20/schema/func_yaml-schema.json
+specVersion: 0.36.0
+name: py-func
+runtime: python
+created: 2026-01-25T10:50:17.897918723+01:00
+build:
+  git:
+    url: https://github.com/gauron99/functions-git-flow
